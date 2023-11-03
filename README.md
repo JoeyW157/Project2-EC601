@@ -10,19 +10,19 @@ The types of information include the location of the Accessible Entrance, Restro
 
 ## Essential Features
 
-# Interface:
+Interface:
 Create a simple form interface where users can:
 * Pinpoint the building.
 * Mark accessible entrances.
 * Add details about restrooms and their locations.
 * Provide an overall accessibility score, possibly with an option to write a review.
 
-# Validation:
+Validation:
 * Consider implementing a verification system. Multiple users can review new submissions before they are confirmed. This can help in ensuring the authenticity and correctness of the data.
 
-# Custom Markers:
+Custom Markers:
 * Customize markers on the map to represent buildings. Different colours or icons can represent varying levels of accessibility.
 * Clicking on these markers can display detailed information about the building.
 
-# Search & Filters:
+Search & Filters:
 * Let users search for buildings or areas and filter results based on accessibility scores, restroom availability, etc
