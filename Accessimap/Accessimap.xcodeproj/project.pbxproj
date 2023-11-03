@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D435166C2AF1FF250079DA27 /* AccessimapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435166B2AF1FF250079DA27 /* AccessimapApp.swift */; };
+		D435166E2AF1FF250079DA27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435166D2AF1FF250079DA27 /* ContentView.swift */; };
+		D43516702AF1FF270079DA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D435166F2AF1FF270079DA27 /* Assets.xcassets */; };
+		D43516742AF1FF270079DA27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43516732AF1FF270079DA27 /* Preview Assets.xcassets */; };
+		D435167E2AF1FF280079DA27 /* AccessimapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435167D2AF1FF280079DA27 /* AccessimapTests.swift */; };
+		D43516882AF1FF280079DA27 /* AccessimapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43516872AF1FF280079DA27 /* AccessimapUITests.swift */; };
+		D435168A2AF1FF280079DA27 /* AccessimapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43516892AF1FF280079DA27 /* AccessimapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D435167A2AF1FF280079DA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43516602AF1FF240079DA27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43516672AF1FF250079DA27;
+			remoteInfo = Accessimap;
+		};
+		D43516842AF1FF280079DA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43516602AF1FF240079DA27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43516672AF1FF250079DA27;
+			remoteInfo = Accessimap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43516682AF1FF250079DA27 /* Accessimap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accessimap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435166B2AF1FF250079DA27 /* AccessimapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessimapApp.swift; sourceTree = "<group>"; };
+		D435166D2AF1FF250079DA27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D435166F2AF1FF270079DA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43516712AF1FF270079DA27 /* Accessimap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Accessimap.entitlements; sourceTree = "<group>"; };
+		D43516732AF1FF270079DA27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D43516792AF1FF280079DA27 /* AccessimapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessimapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435167D2AF1FF280079DA27 /* AccessimapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessimapTests.swift; sourceTree = "<group>"; };
+		D43516832AF1FF280079DA27 /* AccessimapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessimapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43516872AF1FF280079DA27 /* AccessimapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessimapUITests.swift; sourceTree = "<group>"; };
+		D43516892AF1FF280079DA27 /* AccessimapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessimapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43516652AF1FF250079DA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43516762AF1FF280079DA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43516802AF1FF280079DA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D435165F2AF1FF240079DA27 = {
+			isa = PBXGroup;
+			children = (
+				D435166A2AF1FF250079DA27 /* Accessimap */,
+				D435167C2AF1FF280079DA27 /* AccessimapTests */,
+				D43516862AF1FF280079DA27 /* AccessimapUITests */,
+				D43516692AF1FF250079DA27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43516692AF1FF250079DA27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43516682AF1FF250079DA27 /* Accessimap.app */,
+				D43516792AF1FF280079DA27 /* AccessimapTests.xctest */,
+				D43516832AF1FF280079DA27 /* AccessimapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D435166A2AF1FF250079DA27 /* Accessimap */ = {
+			isa = PBXGroup;
+			children = (
+				D435166B2AF1FF250079DA27 /* AccessimapApp.swift */,
+				D435166D2AF1FF250079DA27 /* ContentView.swift */,
+				D435166F2AF1FF270079DA27 /* Assets.xcassets */,
+				D43516712AF1FF270079DA27 /* Accessimap.entitlements */,
+				D43516722AF1FF270079DA27 /* Preview Content */,
+			);
+			path = Accessimap;
+			sourceTree = "<group>";
+		};
+		D43516722AF1FF270079DA27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D43516732AF1FF270079DA27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D435167C2AF1FF280079DA27 /* AccessimapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D435167D2AF1FF280079DA27 /* AccessimapTests.swift */,
+			);
+			path = AccessimapTests;
+			sourceTree = "<group>";
+		};
+		D43516862AF1FF280079DA27 /* AccessimapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43516872AF1FF280079DA27 /* AccessimapUITests.swift */,
+				D43516892AF1FF280079DA27 /* AccessimapUITestsLaunchTests.swift */,
+			);
+			path = AccessimapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43516672AF1FF250079DA27 /* Accessimap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435168D2AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "Accessimap" */;
+			buildPhases = (
+				D43516642AF1FF250079DA27 /* Sources */,
+				D43516652AF1FF250079DA27 /* Frameworks */,
+				D43516662AF1FF250079DA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accessimap;
+			productName = Accessimap;
+			productReference = D43516682AF1FF250079DA27 /* Accessimap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43516782AF1FF280079DA27 /* AccessimapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43516902AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "AccessimapTests" */;
+			buildPhases = (
+				D43516752AF1FF280079DA27 /* Sources */,
+				D43516762AF1FF280079DA27 /* Frameworks */,
+				D43516772AF1FF280079DA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435167B2AF1FF280079DA27 /* PBXTargetDependency */,
+			);
+			name = AccessimapTests;
+			productName = AccessimapTests;
+			productReference = D43516792AF1FF280079DA27 /* AccessimapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43516822AF1FF280079DA27 /* AccessimapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43516932AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "AccessimapUITests" */;
+			buildPhases = (
+				D435167F2AF1FF280079DA27 /* Sources */,
+				D43516802AF1FF280079DA27 /* Frameworks */,
+				D43516812AF1FF280079DA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43516852AF1FF280079DA27 /* PBXTargetDependency */,
+			);
+			name = AccessimapUITests;
+			productName = AccessimapUITests;
+			productReference = D43516832AF1FF280079DA27 /* AccessimapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43516602AF1FF240079DA27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D43516672AF1FF250079DA27 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D43516782AF1FF280079DA27 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D43516672AF1FF250079DA27;
+					};
+					D43516822AF1FF280079DA27 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D43516672AF1FF250079DA27;
+					};
+				};
+			};
+			buildConfigurationList = D43516632AF1FF240079DA27 /* Build configuration list for PBXProject "Accessimap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D435165F2AF1FF240079DA27;
+			productRefGroup = D43516692AF1FF250079DA27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43516672AF1FF250079DA27 /* Accessimap */,
+				D43516782AF1FF280079DA27 /* AccessimapTests */,
+				D43516822AF1FF280079DA27 /* AccessimapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43516662AF1FF250079DA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43516742AF1FF270079DA27 /* Preview Assets.xcassets in Resources */,
+				D43516702AF1FF270079DA27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43516772AF1FF280079DA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43516812AF1FF280079DA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43516642AF1FF250079DA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435166E2AF1FF250079DA27 /* ContentView.swift in Sources */,
+				D435166C2AF1FF250079DA27 /* AccessimapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43516752AF1FF280079DA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435167E2AF1FF280079DA27 /* AccessimapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435167F2AF1FF280079DA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43516882AF1FF280079DA27 /* AccessimapUITests.swift in Sources */,
+				D435168A2AF1FF280079DA27 /* AccessimapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D435167B2AF1FF280079DA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43516672AF1FF250079DA27 /* Accessimap */;
+			targetProxy = D435167A2AF1FF280079DA27 /* PBXContainerItemProxy */;
+		};
+		D43516852AF1FF280079DA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43516672AF1FF250079DA27 /* Accessimap */;
+			targetProxy = D43516842AF1FF280079DA27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D435168B2AF1FF280079DA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D435168C2AF1FF280079DA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D435168E2AF1FF280079DA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Accessimap/Accessimap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Accessimap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.Accessimap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D435168F2AF1FF280079DA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Accessimap/Accessimap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Accessimap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.Accessimap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43516912AF1FF280079DA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.AccessimapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accessimap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Accessimap";
+			};
+			name = Debug;
+		};
+		D43516922AF1FF280079DA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.AccessimapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accessimap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Accessimap";
+			};
+			name = Release;
+		};
+		D43516942AF1FF280079DA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.AccessimapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accessimap;
+			};
+			name = Debug;
+		};
+		D43516952AF1FF280079DA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-JoeyW157-Project2-EC601.AccessimapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accessimap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43516632AF1FF240079DA27 /* Build configuration list for PBXProject "Accessimap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435168B2AF1FF280079DA27 /* Debug */,
+				D435168C2AF1FF280079DA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435168D2AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "Accessimap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435168E2AF1FF280079DA27 /* Debug */,
+				D435168F2AF1FF280079DA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43516902AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "AccessimapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43516912AF1FF280079DA27 /* Debug */,
+				D43516922AF1FF280079DA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43516932AF1FF280079DA27 /* Build configuration list for PBXNativeTarget "AccessimapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43516942AF1FF280079DA27 /* Debug */,
+				D43516952AF1FF280079DA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43516602AF1FF240079DA27 /* Project object */;
+}
