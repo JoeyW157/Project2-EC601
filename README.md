@@ -4,9 +4,9 @@ This Project aims to create an extended function for users to provide accessibil
 The types of information include the location of the Accessible Entrance, Restroom accessibility and floor it is located, and Total Accessibility degree of the building(Regarding vision and mobility disabilities). 
 
 ## Notable Related Development Environment and Libraries
-* [Flutter] (https://flutter.dev/)
-* [Google Map API] (https://developers.google.com/maps)
-* [Android Studio] (https://developer.android.com/studio?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_m2MM1kc1OGQXcfVboG3wMV_NsaW0QA5Tyflr24T7G9LS4GqhCXy0oaApzgEALw_wcB&gclsrc=aw.ds)
+* [Flutter] (https://flutter.dev/ "Flutter")
+* [Google Map API] (https://developers.google.com/maps "Google Map API")
+* [Android Studio] (https://developer.android.com/studio?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_m2MM1kc1OGQXcfVboG3wMV_NsaW0QA5Tyflr24T7G9LS4GqhCXy0oaApzgEALw_wcB&gclsrc=aw.ds "Android Studio")
 
 ## Essential Features
 
